@@ -14,6 +14,6 @@ import lombok.NoArgsConstructor;
 @Schema(description = "Запрос на создание нового баланса")
 public class BalanceRequest {
 
-    @Schema(description = "Имя баланса (уникальное)", example = "user123-wallet", required = true)
+    @Schema(description = "Имя баланса (уникальное)", example = "user123-wallet", requiredMode = Schema.RequiredMode.REQUIRED)
     private String name;
 }
