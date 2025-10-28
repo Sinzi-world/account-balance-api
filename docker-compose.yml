@@ -1,0 +1,11 @@
+services:
+  postgres:
+    image: postgres
+    restart: always
+    container_name: postgres_balance
+    environment:
+      POSTGRES_DB: balanceDB
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5433:5432"
