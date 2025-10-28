@@ -22,6 +22,7 @@ A simple **REST API** for managing account balances and transactions with multi-
 - Lombok
 - Springdoc OpenAPI (Swagger UI)
 - Docker & Docker Compose
+- Gradle
 
 ## Getting Started
 
