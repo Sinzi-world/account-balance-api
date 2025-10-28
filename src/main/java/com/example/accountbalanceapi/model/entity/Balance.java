@@ -1,6 +1,8 @@
 package com.example.accountbalanceapi.model.entity;
 
 import jakarta.persistence.*;
+
+import java.util.List;
 import java.util.UUID;
 
 @Entity
